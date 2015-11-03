@@ -1,5 +1,5 @@
 # Chocolate Babka
-You're running late to a dinner party, you need to bring something.  Why not a chocolate babka? Sure, cinnamon has it's good qualities but you want chocolate.  The only problem is the bakery's ticket machine is broken.  You're smart, enterprising engineer, so you make a deal with the owner that if you get it working you can have your Babka free of charge.
+You're running late to a dinner party, and you need to bring something.  Why not a chocolate babka? Sure, cinnamon has it's good qualities, but you want chocolate.  The only problem is the bakery's ticket machine is broken.  You're a smart, enterprising engineer, so you make a deal with the owner that if you get it working you can have your Babka free of charge.
 
 ![Yeah, yeah this photo isn't from the right episode.](http://www.quickmeme.com/img/27/27aa816144b2b20b96d7fdeb5e1cc1a1ebbe868ccbecea807fd75761e6ac2a79.jpg)
 
