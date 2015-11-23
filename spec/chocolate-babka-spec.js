@@ -1,5 +1,5 @@
 describe('Chocolate Babka Counter', function() {
-  describe('basic counter closure accepting a starting number', function() {  
+  describe('basic counter closure accepting a starting number', function() {
     var bakeryCounter = counterCreator(0);
     it('should increment the number', function() {
       expect(bakeryCounter()).toEqual(1);
@@ -26,7 +26,7 @@ describe('Line number announcer', function() {
         babkaCounter = counterCreator(5),
         bakeryAnnouncer = countAnnouncer('Baked Goods', bakeryCounter)
         babkaAnnouncer = countAnnouncer('Babka', babkaCounter);
-
+        debugger;
     it('should announce who is now being served in both lines', function() {
       expect(bakeryAnnouncer()).toEqual('Now serving Baked Goods number 4!');
       expect(babkaAnnouncer()).toEqual('Now serving Babka number 6!');
