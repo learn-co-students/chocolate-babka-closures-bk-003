@@ -1,12 +1,12 @@
 # Chocolate Babka
-You're running late to a dinner party, and you need to bring something.  Why not a chocolate babka? Sure, cinnamon has it's good qualities, but you want chocolate.  The only problem is the bakery's ticket machine is broken.  You're a smart, enterprising engineer, so you make a deal with the owner that if you get it working you can have your Babka free of charge.
+You're running late to a dinner party, and you need to bring something. Why not a chocolate babka? Sure, cinnamon has its good qualities, but you want chocolate. The only problem is the bakery's ticket machine is broken. You're a smart, enterprising engineer, so you make a deal with the owner that if you get it working you can have your babka free of charge.
 
 ![Yeah, yeah this photo isn't from the right episode.](http://www.quickmeme.com/img/27/27aa816144b2b20b96d7fdeb5e1cc1a1ebbe868ccbecea807fd75761e6ac2a79.jpg)
 
-This is your moment to shine, no Pepsi and Ring Dings for you.  You're an adult you're gonna get a chocolate babka and a nice bottle of wine to impress your friends.  You just need to understand JavaScript closures first.
+This is your moment to shine, no Pepsi and Ring Dings for you. You're an adult- you're gonna get a chocolate babka and a nice bottle of wine to impress your friends. You just need to understand JavaScript closures first.
 
 # Closures
-Closures are like small snapshots of the scope of a function at a certain place in time.  This is achieved by returning an anonymous function from within a function.  Variables defined within that outer function will be within scope for the inner function that is returned.  We can then call the returned inner function, which will access the variable stored in its closure.
+Closures are like small snapshots of the scope of a function at a certain place in time. This is achieved by returning an anonymous function from within a function. Variables defined within that outer function will be within scope for the inner function that is returned. We can then call the returned inner function, which will access the variable stored in its closure.
 
 ex.
 ```javascript
@@ -28,7 +28,7 @@ labelMaker('Steven', 'Nunez');
 // -> 'Hello, my name is Steven Nunez'
 ```
 
-The code above works because we saved the returned function to a variable, making it a function expression. Because as the code was run the inner function had access to the `greeting` variable it now has saved access to it.  Even though we can not directly access `greeting` we can see its value gets returned when we call the `labelMaker` function.
+The code above works because we saved the returned function to a variable, making it a function expression. Because as the code was run the inner function had access to the `greeting` variable it now has saved access to it.  Even though we cannot directly access `greeting` we can see its value gets returned when we call the `labelMaker` function.
 
 # Requirements
 Your counter will need to start at a number based on what is passed in. It must then return a function that, when called, will increment number that was passed in.
