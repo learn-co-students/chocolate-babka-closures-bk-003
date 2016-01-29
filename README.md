@@ -52,4 +52,4 @@ Run Jasmine test suite:
 ## Resources
 * [Closures](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 
-<a href='https://learn.co/lessons/chocolate-babka-closures' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/chocolate-babka-closures' title='Chocolate Babka'>Chocolate Babka</a> on Learn.co and start learning to code for free.</p>
