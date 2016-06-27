@@ -24,7 +24,7 @@ describe('Line number announcer', function() {
   describe('Seperate Announcers for Babkas and Baked Goods', function() {
     var bakeryCounter = counterCreator(3),
         babkaCounter = counterCreator(5),
-        bakeryAnnouncer = countAnnouncer('Baked Goods', bakeryCounter)
+        bakeryAnnouncer = countAnnouncer('Baked Goods', bakeryCounter),
         babkaAnnouncer = countAnnouncer('Babka', babkaCounter);
 
     it('should announce who is now being served in both lines', function() {
